@@ -201,14 +201,14 @@ header {
 }
 
 input {
-    width: 700px;
-    margin-right: 16px;
+    /* width: 80%; */
+    /* margin-right: 16px; */
     border: none;
     padding: 22px;
     border-radius: 8px;
     background: #FFF;
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 16px;
+    color: #27272799;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -290,4 +290,81 @@ footer small {
     color: rgba(255, 255, 255, 0.40);
     font-size: 16px;
     font-weight: 400;
+}
+
+.hide {
+    display: none;
+}
+
+@media only screen and (max-width: 640px) {
+
+
+    .featured,
+    .about,
+    .insta,
+    .subscribe-banner,
+    .testimonials,
+    input {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .hero,
+    .featured-cards,
+    .about,
+    .discount-banner,
+    .insta-cards,
+    .testimonial-cards {
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .about,
+    .discount-banner {
+        padding: 80px 48px;
+    }
+
+    section {
+        margin: 0px 0;
+        /* padding: 0; */
+    }
+
+    /* input {
+        display: inline-block;
+        gap: 20px;
+    } */
+
+    header {
+        padding: 48px 24px 0;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+    form,
+    .featured-card,
+    .testimonial-card {
+        width: 100%;
+    }
+
+    form input,
+    form button {
+        margin: 0 24px 24px;
+        width: calc(100% - 48px);
+    }
+
+    .subscribe-banner {
+        background-position: center;
+        /* border-radius: 8px; */
+        /* object-fit: cover; */
+    }
+
+    footer {
+        padding: 64px 24px;
+    }
 }
