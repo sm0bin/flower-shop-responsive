@@ -51,7 +51,10 @@ header {
 }
 
 .hero img {
-    width: 635px;
+    /* width: 635px; */
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: 0;
 }
 
 .hero h1 {
@@ -63,6 +66,10 @@ header {
 
 .hero p {
     margin-bottom: 32px;
+}
+
+.hero button {
+    margin-bottom: 48px;
 }
 
 /* Main Section */
@@ -181,12 +188,17 @@ header {
     justify-content: space-between;
 }
 
+.insta-cards img {
+    width: 23%;
+}
+
 /* Subscribe Banner */
 .subscribe-banner {
     text-align: center;
     /* width: 100%; */
     border-radius: 8px;
     background-image: url('images/Rectangle\ 9.png');
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 120px 0;
@@ -201,8 +213,12 @@ header {
     margin-bottom: 48px;
 }
 
+/* form {
+    width: 60%;
+} */
+
 input {
-    /* width: 80%; */
+    width: 70%;
     /* margin-right: 16px; */
     border: none;
     padding: 22px;
@@ -344,9 +360,11 @@ footer small {
 
     .hero img {
         width: 100%;
+
     }
 
     form,
+    .insta-cards img,
     .featured-card,
     .testimonial-card {
         width: 100%;
@@ -367,5 +385,90 @@ footer small {
 
     footer {
         padding: 64px 24px;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1280px) {
+
+    .featured,
+    .about,
+    .insta,
+    .subscribe-banner,
+    .testimonials,
+    input {
+        margin: 64px 32px;
+    }
+
+
+
+    .about,
+    .discount-banner,
+    .testimonial-cards {
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .about,
+    .discount-banner {
+        padding: 80px 48px;
+    }
+
+    /* section {
+        margin: 0px 0;
+        padding: 0;
+    } */
+
+    /* input {
+        display: inline-block;
+        gap: 20px;
+    } */
+
+    header {
+        padding: 48px 32px 0;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    /* .hero-content {
+        width: 60%;
+    } */
+    .featured-cards .featured-card {
+        width: 31%;
+        /* height: 50vh; */
+    }
+
+    .insta-cards img {
+        width: 23%;
+    }
+
+    .hero img {
+        width: 40%;
+        margin-top: auto;
+        margin-bottom: 0;
+    }
+
+    form,
+    .featured-card,
+    .testimonial-card {
+        width: 100%;
+    }
+
+    form input,
+    form button {
+        margin: 0 32px 24px;
+        width: calc(100% - 48px);
+    }
+
+    .subscribe-banner {
+        background-position: center;
+        padding: 48px 0;
+        /* border-radius: 8px; */
+        /* object-fit: cover; */
+    }
+
+    footer {
+        padding: 64px 32px;
     }
 }
