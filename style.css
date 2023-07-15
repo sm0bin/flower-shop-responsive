@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+h2 span {
+    color: #E55473;
+}
+
+p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    margin-bottom: 48px;
+}
+
+button {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+
+/* Header Section */
+header {
+    padding: 50px 240px 0;
+    background-color: #E554731A;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero img {
+    width: 635px;
+}
+
+.hero h1 {
+    color: #272727;
+    font-size: 5rem;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.hero p {
+    margin-bottom: 32px;
+}
+
+/* Main Section */
+
+/* Featured Section */
+.featured {
+    text-align: center;
+    margin: 178px 240px 128px;
+}
+
+.featured h2 {
+    margin-bottom: 24px;
+}
+
+.featured p {
+    margin-bottom: 48px;
+}
+
+.featured-cards {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.featured-card {
+    width: 32%;
+}
+
+.featured-card-1,
+.featured-card-2,
+.featured-card-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 538px;
+    border-radius: 3000px 3000px 0px 0px;
+    background-color: #a72162;
+}
+
+.featured-card-1 {
+    background-color: #A7216226;
+}
+
+.featured-card-2 {
+    background-color: #0597A026;
+}
+
+.featured-card-3 {
+    background-color: #477D1126;
+}
+
+.featured-card img {
+    margin-top: auto;
+    margin: auto 70px 0px;
+    max-width: 100%;
+
+}
+
+.featured-cards p {
+    color: #272727;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 32px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+
+/* About Section */
+.about {
+    display: flex;
+    padding: 87px 175px;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    text-align: center;
+    margin: 128px 240px 128px;
+}
+
+.about p {
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+/* Discount Banner */
+.discount-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 100px 430px 100px 395px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 128px 0;
+}
+
+.discount-banner h2 {
+    margin-bottom: 24px;
+}
+
+.discount-banner p {
+    margin-bottom: 32px;
+}
+
+/* Instagram Section */
+.insta {
+    margin: 128px 240px;
+}
+
+.insta p {
+    text-align: center;
+}
+
+.insta-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Subscribe Banner */
+.subscribe-banner {
+    text-align: center;
+    /* width: 100%; */
+    border-radius: 8px;
+    background-image: url('images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    padding: 120px 0;
+    margin: 128px 240px;
+}
+
+.subscribe-banner h2 {
+    margin-bottom: 16px;
+}
+
+.subscribe-banner p {
+    margin-bottom: 48px;
+}
+
+input {
+    width: 700px;
+    margin-right: 16px;
+    border: none;
+    padding: 22px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Testimonials Section */
+.testimonials {
+    text-align: center;
+    margin: 128px 240px;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonial-card {
+    padding: 24px 16px;
+    width: 32%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card p {
+    margin-bottom: 8px;
+}
+
+.testimonial-card p b {
+    color: #E55473;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.testimonial-card img {
+    object-fit: cover;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 8px solid #e5547385;
+    margin: 16px;
+}
+
+.stars i {
+    font-size: 1.5rem;
+    margin-right: 4px;
+    color: #E55473;
+    margin-bottom: 24px;
+}
+
+hr {
+    border: 1px solid #E55473;
+    margin: 8px 80px;
+}
+
+
+/* Footer Section */
+footer {
+    background: #111010;
+    text-align: center;
+    padding: 128px 0;
+}
+
+footer h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+footer h2 span {
+    color: #E55473;
+}
+
+footer p {
+    color: #FFFFFFE5;
+    margin-bottom: 32px;
+    font-size: 18px;
+}
+
+footer small {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
