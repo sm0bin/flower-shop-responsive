@@ -188,6 +188,7 @@ header {
     border-radius: 8px;
     background-image: url('images/Rectangle\ 9.png');
     background-repeat: no-repeat;
+    background-size: cover;
     padding: 120px 0;
     margin: 128px 240px;
 }
@@ -305,8 +306,7 @@ footer small {
     .subscribe-banner,
     .testimonials,
     input {
-        margin-left: 24px;
-        margin-right: 24px;
+        margin: 64px 24px;
     }
 
     .hero,
@@ -360,6 +360,7 @@ footer small {
 
     .subscribe-banner {
         background-position: center;
+        padding: 48px 0;
         /* border-radius: 8px; */
         /* object-fit: cover; */
     }
