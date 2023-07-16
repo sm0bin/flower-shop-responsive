@@ -385,9 +385,21 @@ footer small {
     footer {
         padding: 64px 24px;
     }
+
+    .featured-card-1,
+    .featured-card-2,
+    .featured-card-3 {
+        height: auto;
+    }
+
+    .featured-card img {
+        margin-top: auto;
+        margin: 80px 40px 0px;
+
+    }
 }
 
-@media only screen and (min-width: 640px) and (max-width: 1280px) {
+@media only screen and (min-width: 640px) and (max-width: 992px) {
 
     .featured,
     .about,
@@ -469,5 +481,17 @@ footer small {
 
     footer {
         padding: 64px 32px;
+    }
+
+    .featured-card-1,
+    .featured-card-2,
+    .featured-card-3 {
+        height: 360px;
+    }
+
+    .featured-card img {
+        margin-top: auto;
+        margin: auto 40px 0px;
+
     }
 }
